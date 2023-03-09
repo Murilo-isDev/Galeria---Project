@@ -138,7 +138,10 @@ body{
    border-radius: 5px;
  }
  
+ section{
+    width: 30%;
 
+ }
  
  #btn-galeria {
     background-color: transparent;
@@ -173,18 +176,5 @@ body{
     border: none;
     fill: #fff;
 }
-
-td{
-    justify-content: center;
-    align-items: center;
-}
-
-
-
-
-
-
-
-
 
 
