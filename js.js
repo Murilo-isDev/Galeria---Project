@@ -15,7 +15,7 @@
          imagem.style.transition = '1s';
      }, 1000);
 
-     
+    }); 
 
      btnVoltar.addEventListener('click', function(){
          imAtual--;
@@ -27,7 +27,7 @@
          setTimeout(function(){
              imagem.style.transition = '1s';
          }, 1000);
-     }); });
+     }); 
 
      function barcelona() {
         document.getElementById("imagem").src="barcelona.png";
