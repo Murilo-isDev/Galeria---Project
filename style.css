@@ -11,7 +11,7 @@ body{
     width: 10em;
     height: 10em;
     overflow: hidden;
-    
+    margin:25px;
     margin-left: 40px;
    padding: 2em;
 }
@@ -119,26 +119,26 @@ body{
     flex-wrap: wrap;
 }
 
+
+
  main{
     margin-top: 10%;
  }
 
 .ImgMain{
-    width: 23em;
-    height: 23em;
+    width: 35em;
+    height: 35em;
    display: block;
    margin: auto;
-   border: 10px solid;
+   border: 15px solid;
    border-image: url(https://png.pngtree.com/background/20211215/original/pngtree-yellow-green-and-blue-gradient-brazil-flag-background-picture-image_1452690.jpg) 30 round ;
    margin-top: 2em;
    margin-bottom: -6em;
-   padding: 12px;
+   padding: 10px;
    border-radius: 5px;
  }
  
- section{
-    width: 30%;
- }
+
  
  #btn-galeria {
     background-color: transparent;
@@ -147,14 +147,16 @@ body{
     fill: #fff;
     z-index: -999;
     margin-left: 92em;
-    margin-bottom: -20em; 
+    margin-bottom: -20em;
+   
 }
 
 #voltar{
     background-color: rgb(53, 58, 51);
    color: transparent;
     border: none;
-    fill: #fff;  
+    fill: #fff;
+    
 }
 
 #btnVoltar{
@@ -163,8 +165,8 @@ body{
     border: none;
     fill: rgb(53, 58, 51);
     z-index: -9999; 
+   
 }
-
 .svg{
     background-color: transparent;
     color: #fff;
@@ -176,6 +178,11 @@ td{
     justify-content: center;
     align-items: center;
 }
+
+
+
+
+
 
 
 
