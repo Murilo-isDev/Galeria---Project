@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(53, 58, 51);
+}
+
+.card_img{
+    width: 10em;
+    height: 10em;
+    overflow: hidden;
+    
+    margin-left: 40px;
+   padding: 2em;
+}
+
+.barcelona{
+    height: 100%;
+    cursor: pointer;
+    transition: all linear 0.4s;
+   border: 5px solid;
+   border-image: url(https://st3.depositphotos.com/1816831/17630/i/600/depositphotos_176303658-stock-photo-colors-barcelona-illustration.jpg) 30 round ;
+}
+
+.barcelona:hover{
+    filter: grayscale(100%);
+    transform: scale(1.1);
+}
+
+.city{
+    height: 100%;
+    cursor: pointer;
+    transition: all linear 0.4s;
+   border: 5px solid;
+   border-right: 5px solid;
+   border-image: url(https://www.vogue.pt/media/content/english-version-fashion-to-be-continued-fun-facts-blue.jpg) 30 round ;
+
+}
+
+.city:hover{
+    filter: grayscale(100%);
+    transform: scale(1.1);
+}
+.liverpool{
+    height: 100%;
+    cursor: pointer;
+    transition: all linear 0.4s;
+   border: 5px solid;
+   border-right: 5px solid;
+   border-image: url(https://static.vecteezy.com/ti/vetor-gratis/t2/3421390-minimal-futuristic-abstract-gradient-red-stripes-background-design-gratis-vetor.jpg) 30 round ;
+
+}
+
+.liverpool:hover{
+    filter: grayscale(100%);
+    transform: scale(1.1);
+}
+
+.allnasser{
+    height: 100%;
+    cursor: pointer;
+    transition: all linear 0.4s;
+   border: 5px solid;
+   border-right: 5px solid;
+   border-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzUZ88IbtHN7qlQrZlpKNaodG3CCYPxfliWbTeQn5a8C2sqKjbtw-5FNeKJn_IN-9Vbuk&usqp=CAU) 60 round ;
+
+}
+
+.allnasser:hover{
+    filter: grayscale(100%);
+    transform: scale(1.1);
+}
+
+.borussia{
+    height: 100%;
+    cursor: pointer;
+    transition: all linear 0.4s;
+   border: 5px solid;
+   border-right: 5px solid;
+   border-image: url(https://d2r9epyceweg5n.cloudfront.net/stores/002/158/472/products/camisa-borussia-dortmund-home-22-23-puma-masculino-torcedor-amarelo-21-2a76c3b7e6500481db16535323532426-640-0.jpg) 30 round ;
+
+}
+
+.borussia:hover{
+    filter: grayscale(100%);
+    transform: scale(1.1);
+}
+
+.psg{
+    height: 100%;
+    cursor: pointer;
+    transition: all linear 0.4s;
+   border: 5px solid;
+   border-right: 5px solid;
+   border-image: url(https://pbs.twimg.com/media/ES7rKJ9XYAA5i2l.jpg:large) 30 round ;
+
+}
+
+.psg:hover{
+    filter: grayscale(100%);
+    transform: scale(1.1);
+}
+
+.small_img{
+    height: 100%;
+    cursor: pointer;
+    transition: all linear 0.4s;
+}
+.small_img:hover{
+    filter: grayscale(100%);
+    transform: scale(1.1);
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+ main{
+    margin-top: 10%;
+ }
+
+.ImgMain{
+    width: 23em;
+    height: 23em;
+   display: block;
+   margin: auto;
+   border: 10px solid;
+   border-image: url(https://png.pngtree.com/background/20211215/original/pngtree-yellow-green-and-blue-gradient-brazil-flag-background-picture-image_1452690.jpg) 30 round ;
+   margin-top: 2em;
+   margin-bottom: -6em;
+   padding: 12px;
+   border-radius: 5px;
+ }
+ 
+ section{
+    width: 30%;
+ }
+ 
+ #btn-galeria {
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    fill: #fff;
+    z-index: -999;
+    margin-left: 92em;
+    margin-bottom: -20em; 
+}
+
+#voltar{
+    background-color: rgb(53, 58, 51);
+   color: transparent;
+    border: none;
+    fill: #fff;  
+}
+
+#btnVoltar{
+    background-color: transparent;
+    color: rgb(53, 58, 51);
+    border: none;
+    fill: rgb(53, 58, 51);
+    z-index: -9999; 
+}
+
+.svg{
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    fill: #fff;
+}
+
+td{
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
